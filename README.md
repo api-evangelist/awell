@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Awell is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://awellhealth.com/
+Awell provides an AI‑powered CareOps platform that helps healthcare organizations design, launch, and continuously improve care delivery workflows. By unifying patient data, automating hand‑offs, and offering real‑time analytics, Awell aims to reduce siloed processes, burnout, and inefficiencies in clinical teams. The platform supports integration with existing health IT systems and offers tools for care flow orchestration, outcome tracking, and compliance reporting.
+
+**Areas:** Healthcare · AI · CareOps · Platform · Integration
+
+## Awell on APIs.io
+
+Everything profiled for Awell is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/awell/](https://apis.io/providers/awell/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Orchestration API](https://apis.io/apis/awell/orchestration-api/) — GraphQL API for reading and writing care‑orchestration data such as patients, care flows, activities, and more.
+- [Awell API](https://apis.io/apis/awell/awell-api/) — Awell API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-11-15); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Awell Webhooks](https://apis.io/asyncapis/awell/awell-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApi10MessagesSendRequest](https://apis.io/schemas/awell/awell-post-api10-messages-send-request/)
+- [PostApi10MessagesSendTemplateRequest](https://apis.io/schemas/awell/awell-post-api10-messages-send-template-request/)
+- [PostOrchestrationM2MGraphqlRequest](https://apis.io/schemas/awell/awell-post-orchestration-m2-mgraphql-request/)
+- [PostV1SmsCreateRequest](https://apis.io/schemas/awell/awell-post-v1-sms-create-request/)
+- [PostV1SmsCreateResponse](https://apis.io/schemas/awell/awell-post-v1-sms-create-response/)
+- [PostV1SmsSendRequest](https://apis.io/schemas/awell/awell-post-v1-sms-send-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Awell Context](https://apis.io/jsonld/awell/awell-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Awell API Rules](https://apis.io/rules/awell/awell-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Awell Authentication](https://apis.io/security/awell/awell-authentication/)
+- [Awell Domain Security](https://apis.io/security/awell/awell-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://awellhealth.com/)
+- [Documentation](https://docs.awellhealth.com/)
+- [Getting started](https://docs.awellhealth.com/docs/get-started)
+- [API reference](https://docs.awellhealth.com/api-reference)
+- [Support](https://help.awellhealth.com/en/)
+- [Changelog](https://docs.awellhealth.com/changelog)
+- [Blog](https://awellhealth.com/blog)
+- [Terms of service](https://awellhealth.com/legal/terms-conditions)
+- [Privacy policy](https://awellhealth.com/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 54.8** — strong · rubric 0.28.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 62.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.0 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 27.7 |
+
+**Agent readiness 22.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/awell/](https://apis.io/providers/awell/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Awell: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/awell/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
